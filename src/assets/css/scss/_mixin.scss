@@ -1,0 +1,7 @@
+// Mixin here : 
+@function app-color($name: 'primary') {
+  @if map-get($app-colors, $name) == null {
+    @error '"#{$name}" is not an available colour';
+  }
+  @return map-get($app-colors, $name);
+}
