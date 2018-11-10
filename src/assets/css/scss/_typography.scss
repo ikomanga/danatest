@@ -1,10 +1,62 @@
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('~/HelveticaNeue.eot');
-  src: url('~/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
-    url('~/HelveticaNeue.woff2') format('woff2'),
-    url('~/HelveticaNeue.woff') format('woff'),
-    url('~/HelveticaNeue.ttf') format('truetype');
+  src: url('/static/fonts/HelveticaNeue.eot');
+  src: url('/static/fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/HelveticaNeue.woff2') format('woff2'),
+    url('/static/fonts/HelveticaNeue.woff') format('woff'),
+    url('/static/fonts/HelveticaNeue.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/static/fonts/icomoon.eot?ym1721');
+  src:  url('/static/fonts/icomoon.eot?ym1721#iefix') format('embedded-opentype'),
+    url('/static/fonts/icomoon.ttf?ym1721') format('truetype'),
+    url('/static/fonts/icomoon.woff?ym1721') format('woff'),
+    url('/static/fonts/icomoon.svg?ym1721#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shape:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-share:before {
+  content: "\e904";
+}
+.icon-love:before {
+  content: "\e905";
+}
+.icon-love-2:before {
+  content: "\e906";
+  color: #fd6d6d;
+}
+.icon-next:before {
+  content: "\e907";
 }
