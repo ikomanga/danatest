@@ -117,7 +117,6 @@ export default {
   &-list {
     display: flex;
     justify-content: center;
-    
   }
 
   &-step-current {
@@ -188,6 +187,29 @@ export default {
       right: 0;
       position: absolute;
       top: 2px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .app-pagination {
+    button {
+      margin: 0 3px;
+      padding: 0 7px;
+
+      &.app-pagination-next,
+      &.app-pagination-prev {
+        span {
+          display: none;
+        }
+      }
+
+      &.app-pagination-next {
+        padding-right: 10px;
+      }
+      &.app-pagination-prev {
+        padding-left: 10px;
+      }
     }
   }
 }

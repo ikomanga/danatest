@@ -110,7 +110,7 @@ export default {
       if (w <= 500) {
         this.pager.stepsAround = 1
       } else if (w <= 768) {
-        this.pager.stepsAround = 3
+        this.pager.stepsAround = 2
       } else {
         this.pager.stepsAround = 4
       }
