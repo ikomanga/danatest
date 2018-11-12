@@ -163,6 +163,7 @@ export default {
 @media (max-width: 768px) {
   .about-banner {
     &-left {
+      min-width: 0;
       padding-right: 0;
 
       img {
