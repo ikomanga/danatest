@@ -51,10 +51,11 @@ export default {
 
 @media (max-width: 500px) {
   .app-image-gallery {
-    margin: 40px -16px 20px;
+    margin: 40px 0 20px;
 
     &-list {
       flex: 1 0 100%;
+      padding: 16px 0;
     }
   }
 }
