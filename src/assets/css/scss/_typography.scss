@@ -35,28 +35,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-next:before {
+.icon-contact-us:before {
   content: "\e900";
+  color: #108ee9;
 }
-.icon-facebook:before {
+.icon-location:before {
   content: "\e901";
+  color: #108ee9;
 }
-.icon-instagram:before {
+.icon-next:before {
   content: "\e902";
 }
-.icon-twitter:before {
+.icon-facebook:before {
   content: "\e903";
 }
-.icon-share:before {
+.icon-instagram:before {
   content: "\e904";
 }
-.icon-love:before {
+.icon-twitter:before {
   content: "\e905";
 }
-.icon-love-2:before {
+.icon-share:before {
   content: "\e906";
-  color: #fd6d6d;
+}
+.icon-love:before {
+  content: "\e907";
+}
+.icon-love-2:before {
+  content: "\e908";
 }
 .icon-prev:before {
-  content: "\e907";
+  content: "\e909";
 }
