@@ -1,0 +1,20 @@
+input,
+textarea {
+  border-radius: 4px;
+  border: solid 2px app-color('light_grey');
+  padding: 13px 10px;
+  width: 100%;
+
+  &:focus {
+    border-color: app-color('primary');
+    outline: none;
+  } 
+}
+
+input[type="submit"] {
+  background-color: app-color('primary');
+  border-radius: 4px;
+  border: solid 2px app-color('primary');
+  color: app-color('white');
+  cursor: pointer;
+}
