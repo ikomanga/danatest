@@ -26,8 +26,8 @@
           class="app-header-nav-menus"
         >
           <ul class="app-header-nav-menus-list">
-            <li><a href="/webtask/about">About</a></li>
-            <li><a href="/webtask/contact">Contact</a></li>
+            <li><a href="/#/webtask/about">About</a></li>
+            <li><a href="/#/webtask/contact">Contact</a></li>
           </ul>
         </div>
       </div>
